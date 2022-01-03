@@ -1,0 +1,35 @@
+{
+  "name": "ds/craft-dsform",
+  "description": "Contact Form Details to Admin",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dotsquares",
+      "homepage": "https://dotsquares.com/"
+    }
+  ],
+  "support": {
+    "email": "support.extensions@dotsquares.com",
+    "issues": "https://github.com/developer/repo/issues?state=open",
+    "source": "https://github.com/developer/repo",
+    "docs": "https://github.com/developer/repo/blob/master/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ds\\dsform\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "DS Form",
+    "handle": "dsform",
+    "description": "Display Contact Form",
+    "hasCpSection": false,
+    "hasSettings": true,
+    "class": "ds\\dsform\\dsform"
+  }
+}
