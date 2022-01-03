@@ -1,0 +1,43 @@
+{#
+/**
+ * DS Form plugin for Craft CMS 3.x
+ *
+ *
+ * @author    Dotsquares
+ * @copyright Copyright (c) 2021 Dotsquares
+ * @link      https://www.dotsquares.com/
+ 
+ */
+ #}
+
+{% import "_includes/forms" as forms %}
+
+
+{{ forms.autosuggestField({
+    label: "Form Title",
+    id: 'title',
+    name: 'title',
+    value: settings.title,
+    placeholder: 'Enter Your Form Title',
+    type: 'text',
+}) }}
+{{ forms.autosuggestField({
+    label: "To Email Address",
+    id: 'Email',
+    name: 'email',
+    value: settings.email,
+    placeholder: 'Enter Your Email',
+    type: 'email',
+}) }}
+{{ forms.autosuggestField({
+    label: "From Email Address",
+    id: 'fromemail',
+    name: 'fromemail',
+    value: settings.fromemail,
+    placeholder: 'Enter Your From Email ID',
+    type: 'email',
+}) }}
+
+
+
+
