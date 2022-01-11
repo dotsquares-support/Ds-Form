@@ -227,13 +227,12 @@ $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
 
 
- //echo "Yes";
+ 
  echo '<p class="Message" style="color: green";>Your contact information is send successfully.</p>';
 
 }}else{
 
-   //echo "no";
-
+  
 }
       
 }
