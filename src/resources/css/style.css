@@ -1,0 +1,31 @@
+.form-container.dscontactform {
+    margin: 20px 0;
+}
+  .dscontactform h1{font-size: 20px; font-weight: bold; text-align: center;}
+  .dscontactform #content{ height: auto; padding: 25px;} 
+  .dscontactform .btn-submit{ width: 100%;   
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    margin-bottom: 25px;
+    background-color: #dc373d;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    color: #fff;
+     font-size: 18px;
+    font-weight: bold;
+}
+  .dscontactform .btn-submit:hover{background-color: transparent; color: #000;} 
+  .dscontactform .input-field {
+    width: 100%;   
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: transparent;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    color: #101010;
+   
+}
