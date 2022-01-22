@@ -25,5 +25,5 @@ cd /path/to/project
 composer require ds/craft-dsform
 ```
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Ds Form.
+3. In the Control Panel, go to Settings → Plugins and click the “Install ” button for Ds Form.
 
