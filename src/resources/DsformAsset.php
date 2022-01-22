@@ -4,7 +4,7 @@
  *
  *
  * @link      https://dotsquares.com
- * @copyright Copyright (c) 2021 dotsquares
+ * @copyright Copyright (c) 2022 dotsquares
  */
 
 
