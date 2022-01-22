@@ -1,7 +1,7 @@
 {
   "name": "ds/craft-dsform",
   "description": "Contact Form Details to Admin",
-  "version": "1.0.0",
+  "version": "1.1",
   "type": "craft-plugin",
   "license": "MIT",
   "authors": [
